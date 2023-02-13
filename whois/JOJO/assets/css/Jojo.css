@@ -1,0 +1,65 @@
+    @font-face {
+        font-family: 'Pacifico';
+        src: url(./assets/Police/Pacifico-Regular.ttf);
+    }
+    body {
+        background-image: url(bcgtest.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: auto;
+        margin: 0;
+        padding: 0;
+        border: none;
+        font-family: 'Pacifico' ;
+    }
+
+    .cards {
+        width: 70%;
+        position: absolute;
+        top: 50%;
+        float: left;
+        transform: translateY(-50%);
+        margin-left: 2.5%;
+    }
+
+    .card h2 {
+        font-size: 1em;
+    }
+
+    .card {
+        color: #ffffff;
+        float: left;
+        background: transparent;
+        width: 8%;
+        margin: 1%;
+        padding: 1%;
+        text-align: center;
+        transition: ease-in-out 0.7s;
+    }
+
+    .cards img {
+        width: 109.5%;
+    }
+
+    .hover {
+        background-color: #2f00ff;
+        color: white;
+        cursor: crosshair;
+        transition: ease-in-out 0.7s;
+    }
+
+    .yourCard {
+        color: #ffffff;
+        width: 20%;
+        position: absolute;
+        right: 5%;
+        text-align: center;
+        background: transparent;
+        padding: 10px;
+        top: 30%;
+        transform: translateY(-50%);
+    }
+
+    .yourCard img {
+        width: 100%;
+    }
